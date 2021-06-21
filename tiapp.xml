@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.kasyrani.plusminusd</id>
+    <name>addMINUS</name>
+    <version>2.0.1</version>
+    <publisher>kasyrani.wordpress.com</publisher>
+    <url>https://kasyrani.wordpress.com</url>
+    <description>The goal of this game is to simply answer the math questions until you hit a wrong answer. Then, you have to try again from start. You will only have 5 minutes to answer as many levels as you can. So be quick !</description>
+    <copyright>kasyrani.com</copyright>
+    <icon>icon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>d1b085e1-7d59-46df-9777-5ef34b70471e</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest android:versionCode="201" android:versionName="2.0.1">
+            <uses-sdk android:maxSdkVersion="19"
+                android:minSdkVersion="14" android:targetSdkVersion="19"/>
+        </manifest>
+    </android>
+    <modules/>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+    </deployment-targets>
+    <sdk-version>7.5.0.GA</sdk-version>
+    <property name="appc-app-id" type="string">5c5d32fee9abda1b943ec8b0</property>
+</ti:app>
