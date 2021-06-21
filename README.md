@@ -1,4 +1,4 @@
-# addminusios
+# addminus
 addMinus iOS / Android Version (Titanium/Appcelerator Studio)
 
 Requirements:
